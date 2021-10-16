@@ -90,11 +90,11 @@ const Gender = () => {
       <main>
         <div className="box">
           <img
-            src="https://i.imgur.com/0Ay7sqG.png"
-            alt="escasuma+myntra"
+            src="https://i.imgur.com/I4bSHnD.png"
+            alt="aero+myntra"
             className="logo"
           />
-          <h2 className="h1b">Choose your gender</h2>
+          <h2 className="h1b">Choose your location</h2>
           <div className="buttonbox">
             <button className="button">
               <Link to="/quiz" className="a">

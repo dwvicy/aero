@@ -17,7 +17,7 @@ code {
 
 * {
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 
 .logo {
@@ -138,7 +138,7 @@ body {
 .radioCustomLabel {
   display: inline-block;
   vertical-align: middle;
-  cursor: pointer;
+  cursor: pospace + grotesque;
 }
 
 .radioCustomLabel {

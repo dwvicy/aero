@@ -1,5 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: #e1e2ef;
   background-color: #000;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 .button span {
-  cursor: pointer;
+  cursor: pospace + grotesque;
   display: inline-block;
   position: relative;
   transition: 0.5s;
@@ -101,11 +101,32 @@ p {
 
 .containz {
   width: auto;
-  background-color: #fdb0ac;
-  border-radius: 5px;
+  background: hsla(167, 68%, 73%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(167, 68%, 73%, 1) 0%,
+    hsla(178, 59%, 48%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(167, 68%, 73%, 1) 0%,
+    hsla(178, 59%, 48%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(167, 68%, 73%, 1) 0%,
+    hsla(178, 59%, 48%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
+
+  border-radius: 15px;
   align-items: center;
   margin: auto;
-  padding: 20px;
+  padding: 15px 70px 15px 70px;
 }
 
 .h2b {
@@ -113,7 +134,7 @@ p {
   margin: auto;
   font-size: 400%;
   font-weight: 100;
-  font-family: "Cinzel", serif;
+  font-family: "Space Grotesk", sans-serif;
 }
 @media (min-width: 769px) {
   .h2b {

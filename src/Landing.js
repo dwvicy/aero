@@ -88,20 +88,16 @@ const Landing = () => {
       />
       <main className="box">
         <img
-          src="https://i.imgur.com/0Ay7sqG.png"
-          alt="escasuma+myntra"
+          src="https://i.imgur.com/I4bSHnD.png"
+          alt="aero+myntra"
           className="logo"
         />
-        <h2 className="h2b">Escasuma</h2>
-        <p className="p2b">
-          Your personal memey stylist. <br></br>Find your style in seconds. Shop on
-          Myntra. Dazzle every occasion.
-        </p>
+        <p className="p2b">a powerful carbon footprint tracker</p>
 
         <div className="inline">
           <div className="containz">
             <Link to="/gen" className="a">
-              FIND YOUR STYLE NOW
+              try it now
             </Link>
           </div>
         </div>
