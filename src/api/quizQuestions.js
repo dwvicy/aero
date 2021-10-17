@@ -1,148 +1,86 @@
 var quizQuestions = [
   {
-    question: "What's more important? Financial security or seizing the day?",
+    question: "How much electricity do you consume on a monthly basis?",
     answers: [
       {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/9kQw4jE.png",
+        type: "Microsoft",
+        content: "Halo",
       },
       {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/QiPPaMc.png",
+        type: "Nintendo",
+        content: "Pokemon",
       },
       {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/m3Fb039.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/V88Lc9k.png",
+        type: "Sony",
+        content: "Uncharted",
       },
     ],
   },
   {
-    question: "Which of these bizarre trends are you most likely to try?",
+    question: "What does your water cosumption look like?",
     answers: [
       {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/I10GUSs.png",
+        type: "Microsoft",
+        content: "More than 50 Liters",
       },
       {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/bnJtuPJ.png",
+        type: "Nintendo",
+        content: "More than 20 Liters",
       },
       {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/nggn4gn.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/sOBmLzp.png",
+        type: "Sony",
+        content: "Less than 20 Liters",
       },
     ],
   },
   {
-    question: "Which of these BFF memes do you relate to?",
+    question: "Do you consume non-vegetarian, seafood on a daily basis?",
     answers: [
       {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/5IXLuVD.png",
+        type: "Microsoft",
+        content: "Yes on a daily basis",
       },
       {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/R4nSWsY.png",
+        type: "Nintendo",
+        content: "Sometimes",
       },
       {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/86GYjhs.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/QSKy3wX.png",
+        type: "Sony",
+        content: "Never",
       },
     ],
   },
   {
-    question: "Which of these fashion icons are you most likely to follow?",
+    question: "Do you engage in sustainable acitivities?",
     answers: [
       {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/EGUckTr.png",
+        type: "Microsoft",
+        content: "Yes on a daily basis",
       },
       {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/RYzJwd6.png",
+        type: "Nintendo",
+        content: "Sometimes",
       },
       {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/TH0DGZO.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/WBLeSFW.png",
+        type: "Sony",
+        content: "Never",
       },
     ],
   },
   {
-    question: "Which of the fashion quotes do you relate to most?",
+    question: "How often do you buy electronic devices?",
     answers: [
       {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/ybeSIfm.png",
+        type: "Microsoft",
+        content: "Very Frequently",
       },
       {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/QjscNIT.png",
+        type: "Nintendo",
+        content: "Sometimes",
       },
       {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/SXLz6X2.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/dg5hDTz.png",
-      },
-    ],
-  },
-  {
-    question: "Which of these is your vibe?",
-    answers: [
-      {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/aRtuwIe.png",
-      },
-      {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/Yo4TrJL.png",
-      },
-      {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/kaGBFEU.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/P05AIKz.png",
-      },
-    ],
-  },
-  {
-    question: "Which doggo represents your aesthetic?",
-    answers: [
-      {
-        type: "Bold and Sassy",
-        content: "https://i.imgur.com/69BCS8g.png",
-      },
-      {
-        type: "Classy and Sophisticated",
-        content: "https://i.imgur.com/KXJG3U7.png",
-      },
-      {
-        type: "Bohemian and Romantic",
-        content: "https://i.imgur.com/NGa4K4O.png",
-      },
-      {
-        type: "Sporty and Comfy",
-        content: "https://i.imgur.com/C1DYJ46.png",
+        type: "Sony",
+        content: "Rarely",
       },
     ],
   },

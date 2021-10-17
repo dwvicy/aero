@@ -98,13 +98,13 @@ const Gender = () => {
           <div className="buttonbox">
             <button className="button">
               <Link to="/quiz" className="a">
-                <span>Woman</span>
+                <span>Work</span>
               </Link>
             </button>
 
             <button className="button">
               <Link to="/quiz" className="a">
-                <span>Man</span>
+                <span>Home</span>
               </Link>
             </button>
             <button className="button">

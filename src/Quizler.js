@@ -124,11 +124,6 @@ class Quizler extends Component {
       <div>
         <div className="App">
           <div className="App-header">
-            <img
-              src="https://i.imgur.com/I4bSHnD.png"
-              alt="aero+myntra"
-              className="logo-quiz"
-            />
             <h2 className="lmao">aero Personality Quiz</h2>
           </div>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
