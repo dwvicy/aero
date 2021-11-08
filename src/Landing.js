@@ -87,11 +87,13 @@ const Landing = () => {
         }}
       />
       <main className="box">
-        <img
-          src="https://i.imgur.com/I4bSHnD.png"
-          alt="aero+myntra"
-          className="logo"
-        />
+        <center>
+          <img
+            src="https://i.imgur.com/I4bSHnD.png"
+            alt="aero+myntra"
+            className="logo"
+          />
+        </center>
         <p className="p2b">a powerful carbon footprint tracker</p>
 
         <div className="inline">
