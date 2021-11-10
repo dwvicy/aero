@@ -76,24 +76,33 @@ p {
 .inline {
   display: flex;
   flex-direction: row;
-  justify-items: center;
   flex-wrap: wrap;
   font-size: large;
   color: #000;
   font-weight: 900;
 }
+@media (min-width: 400px) {
+  .inline {
+    justify-content: space-evenly;
+  }
+}
+
+.aero {
+  font-size: xx-large;
+}
+
 .box {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.719);
   border-radius: 10px;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
-  margin: auto auto;
+  margin: auto;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 90%;
+  width: 50%;
   align-items: center;
   justify-content: center;
+  padding: 20px;
 }
 @media (min-width: 769px) {
   .box {
@@ -102,7 +111,9 @@ p {
 }
 
 .containz {
-  width: auto;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
   background: hsla(167, 68%, 73%, 1);
 
   background: linear-gradient(
@@ -122,6 +133,40 @@ p {
     hsla(167, 68%, 73%, 1) 0%,
     hsla(178, 59%, 48%, 1) 100%
   );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
+
+  border-radius: 15px;
+  align-items: center;
+  margin: auto;
+  padding: 15px 70px 15px 70px;
+}
+
+.containz2 {
+  display: inline-block;
+  text-align: center;
+  width: 45%;
+  background: hsla(186, 33%, 94%, 1);
+
+  background: linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(186, 33%, 94%, 1) 0%,
+    hsla(216, 41%, 79%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#8DE9D5", endColorstr="#32C4C0", GradientType=1 );
 
@@ -159,6 +204,8 @@ p {
 .a {
   text-decoration: none;
   color: #000;
+  text-align: center;
+  justify-self: center;
 }
 
 #tsparticles {

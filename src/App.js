@@ -5,6 +5,7 @@ import Gender from "./Gender"
 import Landing from "./Landing"
 import Quizler from "./Quizler"
 import { AnimatedSwitch } from "react-router-transition"
+import Info from "./pages/info"
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           atActive={{ opacity: 1 }}
           className="switch-wrapper"
         >
+          <Route path="/info">
+            <Info />
+          </Route>
           <Route path="/gen">
             <Gender />
           </Route>
