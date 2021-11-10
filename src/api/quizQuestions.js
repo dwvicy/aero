@@ -1,86 +1,65 @@
 var quizQuestions = [
   {
-    question: "How much electricity do you consume on a monthly basis?",
+    question: "1: Which part of the country (India) do you live in?",
     answers: [
       {
-        type: "Microsoft",
-        content: "Halo",
+        type: "Enlightened Novice",
+        content:
+          "Metropolitan City (Mumbai, Delhi, Kolkata, Chennai, Bengaluru, etc.)",
       },
       {
-        type: "Nintendo",
-        content: "Pokemon",
+        type: "Household (Her)o",
+        content: "Urban Center (Ahemdabad, Bhopal, Nashik, etc.)",
       },
       {
-        type: "Sony",
-        content: "Uncharted",
+        type: "Climate Champion",
+        content: "Suburban Area",
+      },
+      {
+        type: "Exceptional Enviromentalist",
+        content: "Rural Area",
       },
     ],
   },
   {
-    question: "What does your water cosumption look like?",
+    question: "2: How often do you consume non-vegetarian food?",
     answers: [
       {
-        type: "Microsoft",
-        content: "More than 50 Liters",
+        type: "Enlightened Novice",
+        content: "Yes. All day, everyday.",
       },
       {
-        type: "Nintendo",
-        content: "More than 20 Liters",
+        type: "Household (Her)o",
+        content: "Sometimes. Alternative days.",
       },
       {
-        type: "Sony",
-        content: "Less than 20 Liters",
+        type: "Climate Champion",
+        content: "Not that often. Once in a while.",
+      },
+      {
+        type: "Exceptional Enviromentalist",
+        content: "Never.",
       },
     ],
   },
   {
-    question: "Do you consume non-vegetarian, seafood on a daily basis?",
+    question: "3: ",
     answers: [
       {
-        type: "Microsoft",
-        content: "Yes on a daily basis",
+        type: "Enlightened Novice",
+        content: "Yes. All day, everyday.",
       },
       {
-        type: "Nintendo",
-        content: "Sometimes",
+        type: "Household (Her)o",
+        content: "Sometimes. Alternative days.",
       },
       {
-        type: "Sony",
-        content: "Never",
-      },
-    ],
-  },
-  {
-    question: "Do you engage in sustainable acitivities?",
-    answers: [
-      {
-        type: "Microsoft",
-        content: "Yes on a daily basis",
+        type: "Climate Champion",
+        content: "Not that often. Once in a while.",
       },
       {
-        type: "Nintendo",
-        content: "Sometimes",
-      },
-      {
-        type: "Sony",
-        content: "Never",
-      },
-    ],
-  },
-  {
-    question: "How often do you buy electronic devices?",
-    answers: [
-      {
-        type: "Microsoft",
-        content: "Very Frequently",
-      },
-      {
-        type: "Nintendo",
-        content: "Sometimes",
-      },
-      {
-        type: "Sony",
-        content: "Rarely",
+        type: "Exceptional Enviromentalist",
+        content: "Never.",
       },
     ],
   },

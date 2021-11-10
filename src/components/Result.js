@@ -12,7 +12,7 @@ function Result(props) {
       <div className="containz buttonbox">
         {(() => {
           switch (props.quizResult) {
-            case "Bold and Sassy":
+            case "Enlightened Novice":
               return (
                 <a
                   className="link_button"
@@ -24,7 +24,7 @@ function Result(props) {
                   you!
                 </a>
               )
-            case "Classy and Sophisticated":
+            case "Household (Her)o":
               return (
                 <a
                   className="link_button"
@@ -36,7 +36,7 @@ function Result(props) {
                   {">>>"}
                 </a>
               )
-            case "Bohemian and Romantic":
+            case "Climate Champion":
               return (
                 <a
                   className="link_button"
@@ -48,7 +48,7 @@ function Result(props) {
                   for you!
                 </a>
               )
-            case "Sporty and Comfy":
+            case "Exceptional Enviromentalist":
               return (
                 <a
                   className="link_button"

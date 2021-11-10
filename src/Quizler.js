@@ -2,6 +2,8 @@ import React, { Component } from "react"
 import quizQuestions from "./api/quizQuestions"
 import Quiz from "./components/Quiz"
 import Result from "./components/Result"
+import { Link } from "react-router-dom"
+
 import "./App.css"
 import "./index.css"
 
@@ -124,7 +126,9 @@ class Quizler extends Component {
       <div>
         <div className="App">
           <div className="App-header">
-            <h2 className="lmao">aero Personality Quiz</h2>
+            <Link to="/" className="a">
+              <h3>aero | carbon foot print tracker</h3>
+            </Link>
           </div>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
         </div>
