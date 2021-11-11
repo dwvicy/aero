@@ -5,7 +5,7 @@ import Gender from "./Gender"
 import Landing from "./Landing"
 import Quizler from "./Quizler"
 import { AnimatedSwitch } from "react-router-transition"
-import Info from "./pages/info"
+import Info from "./info"
 
 function App() {
   return (
