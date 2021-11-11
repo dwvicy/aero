@@ -12,6 +12,7 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .button {
@@ -202,10 +203,18 @@ p {
 }
 
 .a {
+  display: inline-block;
   text-decoration: none;
   color: #000;
   text-align: center;
-  justify-self: center;
+}
+
+.ap {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  text-align: center;
+  margin-left: 20px;
 }
 
 #tsparticles {

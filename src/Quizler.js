@@ -126,7 +126,7 @@ class Quizler extends Component {
       <div>
         <div className="App">
           <div className="App-header">
-            <Link to="/" className="a">
+            <Link to="/" className="ap">
               <h3>aero: carbon foot print tracker</h3>
             </Link>
           </div>

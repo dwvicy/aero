@@ -9,7 +9,7 @@ function Result(props) {
         You are <strong>{props.quizResult}</strong>!
       </div>
 
-      <div className="containz buttonbox">
+      <div className="buttonbox">
         {(() => {
           switch (props.quizResult) {
             case "Enlightened Novice":
