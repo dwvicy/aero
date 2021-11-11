@@ -1,5 +1,5 @@
 body {
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "poppins", sans-serif;
   color: #e1e2ef;
   background-color: #000;
 }
@@ -182,7 +182,7 @@ p {
   margin: auto;
   font-size: 400%;
   font-weight: 100;
-  font-family: "Space Grotesk", sans-serif;
+  font-family: "poppins", sans-serif;
 }
 @media (min-width: 769px) {
   .h2b {

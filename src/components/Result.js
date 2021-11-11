@@ -6,7 +6,7 @@ function Result(props) {
   return (
     <div className="container">
       <div className="result">
-        You are <strong>{props.quizResult}</strong>!
+        You are a(n)<strong>{props.quizResult}</strong>!
       </div>
 
       <div className="buttonbox">
